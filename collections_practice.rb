@@ -37,6 +37,6 @@ end
 
 def add_s(array)
   array.each{|word| word << "s"}
-  array[2] = "feet"
+  array[1] = "feet"
   array
 end
